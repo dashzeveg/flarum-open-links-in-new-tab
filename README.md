@@ -1,0 +1,1 @@
+# flarum-open-links-in-new-tab
