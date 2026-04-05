@@ -24,11 +24,11 @@
     "extra": {
         "flarum-extension": {
             "title": "Open Links in new tab",
-            "category": "",
+            "category": "feature",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
+                "name": "fas fa-external-link-alt",
+                "color": "#fff",
+                "backgroundColor": "#4A90D9"
             }
         },
         "flarum-cli": {
