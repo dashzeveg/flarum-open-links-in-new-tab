@@ -11,6 +11,8 @@ app.initializers.add('dashzeveg-open-links-in-new-tab', () => {
 
       const href = link.getAttribute('href') || '';
       const baseUrl = app.forum.attribute('baseUrl') || '';
+      console.log('baseUrl' + baseUrl);
+      
       if (href.startsWith('/d/') || href.startsWith(baseUrl + '/d/')) {
         link.setAttribute('rel', 'noopener');
       } else {
