@@ -10,10 +10,11 @@ app.initializers.add('dashzeveg-open-links-in-new-tab', () => {
       link.setAttribute('target', '_blank');
 
       const href = link.getAttribute('href') || '';
-      if (href.startsWith('/d/')) {
+      const baseUrl = app.forum.attribute('baseUrl') || '';
+      if (href.startsWith('/d/') || href.startsWith(baseUrl + '/d/')) {
         link.setAttribute('rel', 'noopener noreferrer');
       } else {
-        link.setAttribute('rel', 'noopener noreferrer nofollow');
+        link.setAttribute('rel', 'noopener noreferrer ugc nofollow');
       }
     });
   };
