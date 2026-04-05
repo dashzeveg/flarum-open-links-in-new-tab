@@ -12,7 +12,7 @@ app.initializers.add('dashzeveg-open-links-in-new-tab', () => {
       const href = link.getAttribute('href') || '';
       const baseUrl = app.forum.attribute('baseUrl') || '';
       if (href.startsWith('/d/') || href.startsWith(baseUrl + '/d/')) {
-        link.setAttribute('rel', 'noopener noreferrer');
+        link.setAttribute('rel', 'noopener');
       } else {
         link.setAttribute('rel', 'noopener noreferrer ugc nofollow');
       }
