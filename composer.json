@@ -33,22 +33,22 @@
         },
         "flarum-cli": {
             "modules": {
-                "admin": true,
-                "forum": true,
-                "js": true,
-                "jsCommon": true,
-                "css": true,
-                "locale": true,
+                "admin": false,
+                "forum": false,
+                "js": false,
+                "jsCommon": false,
+                "css": false,
+                "locale": false,
                 "gitConf": true,
                 "githubActions": true,
-                "prettier": true,
-                "typescript": true,
+                "prettier": false,
+                "typescript": false,
                 "bundlewatch": false,
-                "frontendTesting": true,
-                "backendTesting": true,
+                "frontendTesting": false,
+                "backendTesting": false,
                 "phpstan": false,
                 "editorConfig": true,
-                "styleci": true
+                "styleci": false
             }
         }
     },
