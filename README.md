@@ -10,6 +10,7 @@ Install with composer:
 
 ```sh
 composer require dashzeveg/flarum-open-links-in-new-tab:"*"
+php flarum cache:clear
 ```
 
 ## Updating
