@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/dashzeveg/flarum-open-links-in-new-tab.svg)](https://packagist.org/packages/dashzeveg/flarum-open-links-in-new-tab) [![Total Downloads](https://img.shields.io/packagist/dt/dashzeveg/flarum-open-links-in-new-tab.svg)](https://packagist.org/packages/dashzeveg/flarum-open-links-in-new-tab)
 
-A [Flarum](https://flarum.org) extension. flarum-open-links-in-new-tab
+A [Flarum](https://flarum.org) 2.0 extension that automatically opens links in a new tab.
 
 ## Installation
 
