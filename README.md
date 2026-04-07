@@ -16,7 +16,6 @@ composer require dashzeveg/flarum-open-links-in-new-tab:"*"
 
 ```sh
 composer update dashzeveg/flarum-open-links-in-new-tab:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
