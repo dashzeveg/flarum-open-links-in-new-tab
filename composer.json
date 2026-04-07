@@ -1,6 +1,6 @@
 {
     "name": "dashzeveg/flarum-open-links-in-new-tab",
-    "description": "flarum-open-links-in-new-tab",
+    "description": "A Flarum 2.0 extension that automatically opens links in a new tab.",
     "keywords": [
         "flarum"
     ],
