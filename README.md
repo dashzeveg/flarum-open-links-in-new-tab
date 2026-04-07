@@ -17,6 +17,7 @@ php flarum cache:clear
 
 ```sh
 composer update dashzeveg/flarum-open-links-in-new-tab:"*"
+php flarum migrate
 php flarum cache:clear
 ```
 
