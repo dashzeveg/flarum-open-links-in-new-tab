@@ -25,4 +25,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/dashzeveg/flarum-open-links-in-new-tab)
 - [GitHub](https://github.com/dashzeveg/flarum-open-links-in-new-tab)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org/d/39033-open-links-in-new-tab-a-flarum-20-extension)
